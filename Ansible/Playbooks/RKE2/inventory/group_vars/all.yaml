@@ -12,6 +12,7 @@ lb_pool_name: fedora-pool
 
 rke2_version: "v1.33.1+rke2r1"
 rke2_install_dir: "/usr/local/bin"
+rke2_binary_url: "https://github.com/rancher/rke2/releases/download/{{ rke2_version }}/rke2.linux-amd64"
 
 
 ansible_become: true
